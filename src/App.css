@@ -81,12 +81,11 @@ h1 {
   text-align: center;
 }
 
-body{
-  background-image: url(https://images.unsplash.com/photo-1529651737248-dad5e287768e?q=80&w=1365&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D );
-  background-repeat:no-repeat;
+body {
+  background-image: url(https://images.unsplash.com/photo-1529651737248-dad5e287768e?q=80&w=1365&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-repeat: no-repeat;
   background-size: cover;
 }
-
 
 #root {
   line-height: 1.5;
@@ -160,7 +159,7 @@ input:hover {
 }
 
 .addButton {
-  background-color:  rgb(243, 38, 45);
+  background-color: rgb(243, 38, 45);
   color: white;
   border: none;
   border-radius: 5px;
@@ -233,6 +232,17 @@ li:hover {
   font-weight: 600;
 }
 
+.editar:hover {
+  background-color: rgb(3, 73, 142);
+}
+
+.eliminar:hover {
+  background-color: rgb(3, 73, 142);
+}
+
+.verificar:hover {
+  background-color: rgb(3, 73, 142);
+}
 
 footer {
   display: flex;
@@ -243,7 +253,7 @@ footer {
   margin-bottom: 0;
   padding: 2rem;
   font-family: "Verdana", sans-serif;
-  color:  rgb(243, 38, 45);
+  color: rgb(243, 38, 45);
   text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2);
   font-weight: 600;
   font-size: 1rem;
