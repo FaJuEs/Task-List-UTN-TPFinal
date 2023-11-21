@@ -10,13 +10,13 @@ const TaskItem = ({ task, index, eliminarTask, verificarTask, editarTask }) => {
       <div className="task-name">{task.name}</div>
       <div className="task-actions">
         <button className="editar" onClick={() => editarTask(index)}>
-          ✏️
+          <p>Editar tarea</p>✏️
         </button>
         <button className="eliminar" onClick={() => eliminarTask(index)}>
-          ❌
+          <p>Eliminar</p>❌
         </button>
         <button className="verificar" onClick={() => verificarTask(index)}>
-          ✔️
+          <p>Realizada</p>✔️
         </button>
       </div>
     </li>

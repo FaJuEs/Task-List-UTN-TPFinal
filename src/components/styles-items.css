@@ -1,6 +1,17 @@
 .eliminar, .verificar, .editar{
     background-color: transparent;
-    font-size: 1.5rem;
-    margin-right: 0.5rem;
-    border:none;
+    font-size: 0.6rem;
+    margin: 0.1rem;
+    border:solid grey 1px;
+    margin-right: auto;
+    border-style: inset;
+
+
   }
+
+  p.eliminar, .verificar, .editar {
+      font-size: 0.6rem;
+      text-align: center;
+    
+    }
+  

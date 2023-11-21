@@ -190,7 +190,7 @@ li {
   margin: auto;
   align-items: center;
   justify-content: space-between;
-  width: 70vw;
+  width: 80vw;
   padding: 0.2rem;
   padding-left: 0.5rem;
   border-radius: 0.25rem;
@@ -198,11 +198,11 @@ li {
   font-size: 1.5rem;
   height: 3rem;
   background-color: white;
-  color: black;
+  color: rgb(243, 38, 45);
   font-weight: 500;
   padding: 10px;
   border-radius: 10px;
-  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
   position: relative;
 }
 span {
@@ -211,21 +211,26 @@ span {
 li:hover {
   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
+
 .eliminar {
   position: absolute;
-  right: 0.5rem;
+  right: 0.3rem;
   top: 0;
   bottom: 0;
+  color: #000;
+  font-weight: 600;
 }
 .verificar {
   position: absolute;
-  right: 3rem;
+  right: 4rem;
   top: 0;
   bottom: 0;
+  color: #000;
+  font-weight: 600;
 }
 .editar {
   position: absolute;
-  right: 6rem;
+  right: 8rem;
   top: 0;
   bottom: 0;
   color: #000;
@@ -262,17 +267,3 @@ footer {
   padding: 10px;
   height: 10vh;
 }
-
-/* #taskInput,
-html,
-.element {
-  margin: 0 0;
-  transform: translate3d(0, 0, 0);
-  z-index: 50;
-  display: block;
-}
-h1 {
-  font-size: 2.3rem !important;
-  text-align: center;
-}
- */
