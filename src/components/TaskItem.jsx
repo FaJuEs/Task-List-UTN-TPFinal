@@ -1,17 +1,16 @@
+import "./styles-items.css";
 
-import './styles-items.css';
-
-const TaskItem = ({ task, index, eliminarTask, verificarTask,  editarTask}) => {
+const TaskItem = ({ task, index, eliminarTask, verificarTask, editarTask }) => {
   const taskItemStyle = {
-    textDecoration: task.completed ? 'line-through' : 'none',
-    backgroundColor: task.completed ? 'white' :"",
+    textDecoration: task.completed ? "line-through" : "none",
+    backgroundColor: task.completed ? "white" : "",
   };
   return (
     <li className="task-item" style={taskItemStyle}>
       <div className="task-name">{task.name}</div>
       <div className="task-actions">
         <button className="editar" onClick={() => editarTask(index)}>
-          🖊
+          ✏️
         </button>
         <button className="eliminar" onClick={() => eliminarTask(index)}>
           ❌
