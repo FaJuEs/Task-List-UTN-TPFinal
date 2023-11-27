@@ -8,7 +8,7 @@ const TaskForm = ({ addTask, taskInput }) => {
     <form>
       <fieldset id="fieldset" >
         <input 
-          type="text"
+          type="text" maxLength={20}
           id="taskInput"
           value={taskInput.value}
           onChange={handleInputChange} 
