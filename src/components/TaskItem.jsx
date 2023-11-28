@@ -13,7 +13,7 @@ const TaskItem = ({ task, index, eliminarTask, verificarTask, editarTask }) => {
           <p>Editar tarea</p>✏️
         </button>
         <button className="eliminar" onClick={() => eliminarTask(index)}>
-          <p>Eliminar</p>❌
+          <p>Eliminar</p>🗑️
         </button>
         <button className="verificar" onClick={() => verificarTask(index)}>
           <p>Realizada</p>✔️
